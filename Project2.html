@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complex HTML Form</title>
+</head>
+<body>
+
+<h1>Complex HTML Form</h1>
+
+<form>
+    <label>Name:</label>
+    <input type="text" placeholder="Enter your name"><br><br>
+
+    <label>Email:</label>
+    <input type="email" placeholder="Enter your email"><br><br>
+
+    <label>Password:</label>
+    <input type="password" placeholder="Enter your password"><br><br>
+
+    <label>Age:</label>
+    <input type="number" min="1" max="120"><br><br>
+
+    <fieldset>
+        <legend>Gender:</legend>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other" checked> Other
+    </fieldset><br>
+
+    <input type="checkbox"> Subscribe to newsletter<br><br>
+
+    <label>Country:</label>
+    <select>
+        <option>Select your country</option>
+        <option>USA</option>
+        <option>Canada</option>
+        <option>UK</option>
+        <!-- Add more countries as needed -->
+    </select><br><br>
+
+    <label>Biography:</label><br>
+    <textarea rows="4" cols="50" placeholder="Tell us about yourself..."></textarea><br><br>
+
+    <label>Upload a profile picture:</label>
+    <input type="file"><br><br>
+
+    <label>Date of Birth:</label>
+    <input type="date"><br><br>
+
+    <label>Appointment Time:</label>
+    <input type="time"><br><br>
+
+    <label>Volume Level:</label>
+    <input type="range" min="0" max="100" value="50"><br><br>
+
+    <label>Favorite Color:</label>
+    <input type="color"><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+
+</body>
+</html>
